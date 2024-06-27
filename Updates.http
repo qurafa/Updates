@@ -1,0 +1,23 @@
+@Updates_HostAddress = https://localhost:7049
+
+GET {{Updates_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Updates_HostAddress}}/weatherforecast
+
+###
+
+GET {{Updates_HostAddress}}/api/updates
+
+###
+
+POST {{Updates_HostAddress}}/api/updates
+Content-Type: application/json
+
+{
+  //Update
+}
+
+###
